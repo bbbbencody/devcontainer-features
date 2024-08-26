@@ -1,0 +1,16 @@
+{
+    "id": "rails-bun",
+    "version": "1.1.1",
+    "name": "Bun",
+    "description": "Installs bun, built to run with the default ruby on rails devcontainer",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "1.1.26",
+            "description": "The bun version to be installed"
+        }
+    }
+}
